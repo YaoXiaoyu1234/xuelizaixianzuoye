@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>雪梨在线</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.head a{
+			text-decoration: none;
+		}
+		.head a:hover{
+		    color: black;
+		    padding-bottom: 10px;
+		    border-bottom: 1px solid blue;
+		}
+		ul{
+			list-style-type: none;
+		}
+		.clear:after{
+			content: '';
+			display: block;
+			height: 0;
+			clear: both;
+		}
+		.title{
+			width:85px;
+			height:20px;
+			font-size:20px;
+			font-weight:bold;
+			color:rgba(0,164,255,1);
+			margin-top: 16.5px;
+			margin-left: 184.5px;
+		}
+		.nav {
+			margin-top: -10px;
+			font-size:9px;
+		}
+		.nav a{
+
+			color:rgba(5,5,5,1);
+		}
+		.nav li{
+
+			float: left;
+			padding: 0 20px;
+		}
+		li.first{
+			padding-left: 309px;
+		}
+		li.last{
+			padding-right: 100px;
+		}
+		.form{
+			margin-top: -20px;
+		}
+		.form*{
+			float: left;
+		}
+		.form .search{
+			width:250.5px;
+			height:20px;
+			color:rgba(191,191,191,1);
+			
+		}
+		.form .submit{
+			width:25px;
+			height:20px;
+			background:rgba(0,164,255,1) url(../images/1.png);
+			cursor: ponter;
+		}
+		.end{
+			float: right;
+			width:40px;
+			height:6px;
+			font-size:7px;
+			color:rgba(102,102,102,1);
+			margin-top: -20px;
+		}
+		.PHP-img{
+			width: 100%;
+		}
+		.banner{
+			position: relative;
+			float:left;
+		}
+		.zhongjian>ul>li{
+			list-style-type: none;
+			float: left;
+            position: relative;
+		}
+		.zhongjian>ul>li:hover{
+			display:block;
+		}
+		.zhongjian1{
+			display: none;
+            position: absolute;
+		}
+		.zhongjian a{
+			color:black;
+			text-decoration: none;
+		}
+		.text1 li{
+			float: left;
+			border-right: 1px solid black;
+			margin-top: 10px;
+			margin-left: 50px;
+		}
+		.text1>ul>li a{
+			color:black;
+			text-decoration: none;
+		}
+		.text1 a:hover{
+            color:blue;
+		}
+		.text2{
+			padding: 50
+		}
+		.first2{
+			color:rgba(0,164,255,1);
+		}
+		.k1{
+			width: 900px;
+			height；100px;
+			padding-left:150px;
+		}
+		.green{
+			float: left;
+			width: 180px;
+		}
+		.k2{
+			padding: 100px;
+			width: 900px;
+			padding-left:150px;
+		}
+		.box1{
+			float: left;
+			width: 180px;
+		}
+		.text3 li{
+			float: left;
+			margin-top: -20px;
+			margin-left: 180px;	
+		}
+		.k3{
+			width: 900px;
+			height；100px;
+			padding-left:150px;
+		}
+		.blue{
+			float: left;
+			width: 180px;
+		}
+		.k4{
+			padding: 100px;
+			width: 900px;
+			padding-left:150px;
+		}
+		.box2{
+			float: left;
+			width: 180px;
+		}
+		.text4{
+			padding: 50px;
+		}
+		.k5{
+
+		}
+		.l2{
+			position: relative;
+		}
+		.wen{
+			position: absolute;
+			width: 210px;
+			height: 120px;
+			background-color: (0,0,0,4)
+			left: 10px;
+			top: 200px;
+			background-color:rgba(0,0,0,0.4);
+		}
+		.wang{
+			position: absolute;
+			width: 210px;
+			height: 120px;
+			left: 280px;
+			top: 200px;
+			background-color:rgba(0,0,0,0.4);
+		}
+		.jiang{
+			position: absolute;
+			width: 200px;
+			height: 90px;
+			left: 500px;
+			top: 200px;
+			background-color:rgba(0,0,0,0.4);
+		}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<h1 class="title">雪梨在线</h1>
+		<ul class="nav clear">
+			<li class="first"><a href="#">首页</a></li>
+			<li><a href="#">课程</a></li>
+			<li class="last"><a href="#">职业规划</a></li>
+		</ul>
+		<form class="form">
+			<input type="text" placeholder="请输入关键词" class="search"/>
+			<input type="button" class="submit"/>
+		</form>
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\搜索.png" alt="">
+		<h2 class="end">个人中心</h2>
+	</div>
+	<div class="banner">
+		<img class="PHP-img" src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\PHP.png" alt="">
+		<div class="zhongjian">
+			<ul>
+			<li><a href="">精品推荐</a>
+				<ul class="zhongjian1">
+				    <li><a href="">前端开发            ></a></li>
+				    <li><a href="">后端开发            ></a></li>
+				    <li><a href="">移动开发            ></a></li>
+				    <li><a href="">人工智能            ></a></li>
+				    <li><a href="">商业预测            ></a></li>
+				    <li><a href="">云计算&大数         ></a></li>
+				    <li><a href="">运维&从测试         ></a></li>
+				    <li><a href="">UI设计              ></a></li>
+				    <li><a href="">产品                ></a></li>
+			    </ul>
+			</li>
+			<li><a href="">JQurey</a></li>
+			<li><a href="">Spark</a></li>
+			<li><a href="">MySQL</a></li>
+			<li><a href="">JavaWeb</a></li>
+			<li><a href="">MySQL</a></li>
+			<li><a href="">JavaWeb</a></li>
+		    </ul>
+	<div class="text2">
+		<p>精品推荐</p>
+	</div>
+	<div class="k1">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\lv1.png" alt=""class="green">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\zi2.png" alt="" class="green">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\lan3.png" alt="" class="green">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\ren4.png" alt="" class="green">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\ren4.png" alt="" class="green">
+	</div><br/>
+	<div class="k2">
+		<p class="box1">Think PHP 5.0 博客系统实战项目演练<br/>高级 .1125人在学习</p>
+		<p class="box1">Android 网络图片加载框架详解</p>
+		<p class="box1">Angular 2 最新框架+主流技术+项目实战<br/>高级 .1125人在学习</p>
+		<p class="box1">Android Hybrid APP开发实战H5+原生！<br/>高级 .1125人在学习</p>
+		<p class="box1">Android Hybrid APP开发实战H5+原生！<br/>高级 .1125人在学习</p>
+	</div>
+	<div class="k1">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\lv1.png" alt="" class="green">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\zi2.png" alt="" class="green">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\lan3.png" alt="" class="green">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\ren4.png" alt="" class="green">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\ren4.png" alt="" class="green">
+	</div><br/>
+	<div class="k2">
+		<p class="box1">Think PHP 5.0 博客系统实战项目演练<br/>高级 .1125人在学习</p>
+		<p class="box1">Android 网络图片加载框架详解<br/>高级 .1125人在学习</p>
+		<p class="box1">Angular 2 最新框架+主流技术+项目实战<br/>高级 .1125人在学习</p>
+		<p class="box1">Android Hybrid APP开发实战H5+原生！<br/>高级 .1125人在学习</p>
+		<p class="box1">Android Hybrid APP开发实战H5+原生！<br/>高级 .1125人在学习</p>
+	</div>
+	<div class="text3">
+		<h2>前端开发工程师</h2>
+		<ul>
+			<li><a href="#">热门</a></li>
+			<li><a href="#">初级</a></li>
+			<li><a href="#">中级</a></li>
+			<li><a href="#">高级</a></li>
+		</ul>
+	</div>
+	<div class="k3">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\31.png" alt="" class="blue">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\32.png" alt="" class="blue">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\33.png" alt="" class="blue">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\34.png" alt="" class="blue">
+		<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\35.png" alt="" class="blue">
+	</div><br/>
+	<div class="k4">
+		<p class="box2">微软人工智能-数据分析平台<br/>高级 .1125人在学习</p>
+		<p class="box2">Unity Profiler入门<br/>高级 .1125人在学习</p>
+		<p class="box2">Cocos2d-x 引擎源码中的纹理优化<br/>高级 .1125人在学习</p>
+		<p class="box2">Kami2首页界面切换效果<br/>高级 .1125人在学习</p>
+		<p class="box2">Android Hybrid APP开发实战H5+原生！<br/>高级 .1125人在学习</p>
+	</div>
+	<div class="text4">牛人推荐</div>
+	<div class="k5">
+		<div class="l1">
+			<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\heihuang .png" alt="">
+		</div>
+		<div class="l2">
+			<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\a1.png" alt="">
+			<div class="wen">
+				<p>
+					闻老师 大数据<br/>高级互联网软件工程师，曾担任高年某物流公司CRM开发团队TL.多年JAVAEE、大数据领域研发······
+				</p>
+			</div>
+			<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\a2.png" alt="">
+			<div class="wang">
+				<p>
+					汪老师 前端<br/>
+				高级软件架构师，全栈开发，多年大型项目管理经验。对WebComponents、Nodejs......
+				</p>
+			</div>
+			<img src="E:\课程文件\大一下学期\web刘冠军老师\雪梨在线作业\a3.png" alt="">
+			<div class="jiang">
+				<p>
+					江老师 前端<br/>
+				多年软件开发经验和教学经验,精通html，css，jsasp，net程语言和数据库系统······
+
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+<ml>
